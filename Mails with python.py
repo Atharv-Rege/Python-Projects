@@ -1,6 +1,5 @@
 import smtplib
 from email.message import EmailMessage
-from string import Template
 from pathlib import Path
 
 email = EmailMessage()
