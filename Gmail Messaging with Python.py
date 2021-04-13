@@ -1,3 +1,5 @@
+#Before doing this please enable less secure apps in google
+#Here is the Link: https://myaccount.google.com/lesssecureapps?pli=1&rapt=AEjHL4OQcNJt0OcK83-dOBolnzviJIRlqzyi4B92CbbpHjqSDBYp-5J5JwWqiCnuY_EhLe2oZYaKdO21SngjqvB2gg3-RqJY8A
 import smtplib
 from email.message import EmailMessage
 from string import Template
