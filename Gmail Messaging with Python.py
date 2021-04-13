@@ -21,4 +21,3 @@ with smtplib.SMTP(host='smtp.gmail.com', port=587) as smtp:
     smtp.login("Your google email", 'Your google password')
     smtp.send_message(email)
     print('Sent ✈')
-# Click the run button to run it
