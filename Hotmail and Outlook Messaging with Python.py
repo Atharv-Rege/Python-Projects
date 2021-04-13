@@ -1,9 +1,9 @@
 import smtplib, ssl
 
 port = 587  # For starttls
-smtp_server = "smtp-mail.outlook.com"
-sender_email = "Youremail@outlook.com"
-receiver_email = "reciver@outlook.com"
+smtp_server = "smtp-mail.outlook.com"# host for hotmail and outlook
+sender_email = "Youremail@outlook.com or hotmail.com"
+receiver_email = "reciver@domain.com"
 password = input("Type your password and press enter:")
 message = """\
 Subject: Your subject
